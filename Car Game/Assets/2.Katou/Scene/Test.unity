@@ -179,7 +179,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &534669902
 GameObject:
@@ -542,7 +542,7 @@ PrefabInstance:
     - target: {fileID: 2611330169794098305, guid: b0f62af96d559c64ab67707896e5aadc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2611330169794098305, guid: b0f62af96d559c64ab67707896e5aadc,
         type: 3}
@@ -558,66 +558,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8978616601806166297, guid: b0f62af96d559c64ab67707896e5aadc,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7082803041500861929, guid: b0f62af96d559c64ab67707896e5aadc,
-        type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7082803041500861929, guid: b0f62af96d559c64ab67707896e5aadc,
-        type: 3}
-      propertyPath: m_MotionVectors
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7082803041500861929, guid: b0f62af96d559c64ab67707896e5aadc,
-        type: 3}
-      propertyPath: m_StitchLightmapSeams
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7082803041500861929, guid: b0f62af96d559c64ab67707896e5aadc,
-        type: 3}
-      propertyPath: m_DynamicOccludee
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7082803041500861929, guid: b0f62af96d559c64ab67707896e5aadc,
-        type: 3}
-      propertyPath: m_ReflectionProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7082803041500861929, guid: b0f62af96d559c64ab67707896e5aadc,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7082803041500861929, guid: b0f62af96d559c64ab67707896e5aadc,
-        type: 3}
-      propertyPath: m_LightProbeVolumeOverride
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7082803041500861929, guid: b0f62af96d559c64ab67707896e5aadc,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 163f2b961d8caf24fba04bea432a916a, type: 2}
-    - target: {fileID: 7082803041500861929, guid: b0f62af96d559c64ab67707896e5aadc,
-        type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7082803041500861929, guid: b0f62af96d559c64ab67707896e5aadc,
-        type: 3}
-      propertyPath: m_LightmapParameters
-      value: 
-      objectReference: {fileID: 15200, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 8080928160381001798, guid: b0f62af96d559c64ab67707896e5aadc,
-        type: 3}
-      propertyPath: m_CookingOptions
-      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0f62af96d559c64ab67707896e5aadc, type: 3}
