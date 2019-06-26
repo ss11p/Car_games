@@ -1064,6 +1064,11 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6184828381599861676, guid: b0f62af96d559c64ab67707896e5aadc,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7444052406646546239, guid: b0f62af96d559c64ab67707896e5aadc, type: 3}
     - {fileID: 7579531888302364879, guid: b0f62af96d559c64ab67707896e5aadc, type: 3}
@@ -1077,6 +1082,7 @@ PrefabInstance:
     - {fileID: 3187052368743778178, guid: b0f62af96d559c64ab67707896e5aadc, type: 3}
     - {fileID: 1928226102029434549, guid: b0f62af96d559c64ab67707896e5aadc, type: 3}
     - {fileID: 3004924149438599044, guid: b0f62af96d559c64ab67707896e5aadc, type: 3}
+    - {fileID: 6184828381599861676, guid: b0f62af96d559c64ab67707896e5aadc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b0f62af96d559c64ab67707896e5aadc, type: 3}
 --- !u!1001 &115193658
 PrefabInstance:
