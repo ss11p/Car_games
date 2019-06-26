@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/2.Katou/Scene/Test.unity
+  isLoaded: 1
+  isActive: 1
