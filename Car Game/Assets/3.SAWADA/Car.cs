@@ -21,7 +21,7 @@ public class Car : MonoBehaviour
         //タイヤビジュアルに、コライダーの値を設定。
         //単純な車の場合、Z軸を90f回転させる必要がある
         visual.transform.position = pos;
-        visual.transform.rotation = q * Quaternion.Euler(0f, 0f, 90f);
+        visual.transform.rotation = q * Quaternion.Euler(0f, 0f,0f); ;
         
     }
     // Start is called before the first frame update
