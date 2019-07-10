@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Networking.Types;
 public class Car : MonoBehaviour
 {
+    public static Car inatatic;
     public List<AxeleInfo> axleInfos;//個々の車軸の情報
     public float maxMotorTorque=400;//ホイールに適用可能な最大トルク
     public float maxSteeringAngle=30;//適用可能な最大ハンドル角度
@@ -19,13 +20,14 @@ public class Car : MonoBehaviour
         Quaternion q;
         collider.GetWorldPose(out pos, out q);
         //タイヤビジュアルに、コライダーの値を設定。
-        //単純な車の場合、Z軸を90f回転させる必要がある
         visual.transform.position = pos;
+        //タイヤを回す
         visual.transform.rotation = q  ;
         
     }
-    // Start is called before the first frame update
-   public void FixedUpdate()
+
+        // Start is called before the first frame update
+        public void FixedUpdate()
     {
         float motor = maxMotorTorque * Input.GetAxis("Vertical");
         float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
