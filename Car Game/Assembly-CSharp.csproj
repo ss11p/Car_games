@@ -58,6 +58,7 @@
     <Compile Include="Assets\3.SAWADA\Car.cs" />
     <Compile Include="Assets\4.nakashima\CarSelect.cs" />
     <Compile Include="Assets\4.nakashima\SceneMove.cs" />
+    <Compile Include="Assets\4.nakashima\Timer.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/user/Desktop/CarGame/Car Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
