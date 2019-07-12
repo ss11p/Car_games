@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/user/Desktop/SpeceStarSpeed/SpaceStarSpeed/Assets/1_Nakashima/Scene/SelectScene.unity
+- path: Assets/4.nakashima/Scene/test.unity
   isLoaded: 1
   isActive: 1

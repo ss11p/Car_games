@@ -8,6 +8,10 @@ public class Car : MonoBehaviour
     public List<AxeleInfo> axleInfos;//個々の車軸の情報
     public float maxMotorTorque=400;//ホイールに適用可能な最大トルク
     public float maxSteeringAngle=30;//適用可能な最大ハンドル角度
+    public void Start()
+    {
+        transform.Rotate(0, 180, 0);
+    }
     public void ApplyLocalPosiitonToVisuals(WheelCollider collider)
     {
         // Wheelコライダーの子要素がない場合は処理終了。

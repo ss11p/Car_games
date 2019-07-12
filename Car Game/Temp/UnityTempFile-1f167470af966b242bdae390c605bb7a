@@ -296,8 +296,12 @@
 /define:ENABLE_VSTU
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
+Assets\3.SAWADA\Script\Camera_Move.cs
 Assets\3.SAWADA\Script\Car.cs
+Assets\3.SAWADA\Script\Carseitei.cs
 Assets\3.SAWADA\Script\ChekPoint.cs
 Assets\3.SAWADA\Script\Golu.cs
 Assets\3.SAWADA\Script\Seni.cs
 Assets\3.SAWADA\Script\Tenmrtu.cs
+Assets\4.nakashima\CarSelect.cs
+Assets\4.nakashima\SceneMove.cs
