@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":3.3126258850097658,"y":0.8150368928909302,"z":38.39768600463867},"rotation":{"x":-0.7071068286895752,"y":0.0,"z":0.0,"w":-0.7071068286895752},"size":32.43975067138672,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-1.3525285720825196,"y":3.5756378173828127,"z":-2.43109130859375},"rotation":{"x":0.019861172884702684,"y":0.9766204953193665,"z":0.10290736705064774,"w":-0.18769150972366334},"size":11.917302131652832,"orthographic":false}
+>>>>>>> origin/katou
