@@ -55,6 +55,8 @@
   <ItemGroup>
      <Compile Include="Assets\2.Katou\Efe\Effect\Effect.cs" />
      <Compile Include="Assets\3.SAWADA\Car.cs" />
+     <Compile Include="Assets\UnityTile3D\Tile3D\Tile3D.cs" />
+     <Compile Include="Assets\UnityTile3D\Tile3D\Vector3Ext.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/user/Documents/Car_games/Car Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
