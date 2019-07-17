@@ -56,11 +56,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\2.Katou\Efe\Effect\Effect.cs" />
-    <Compile Include="Assets\3.SAWADA\Script\Camera_Move.cs" />
     <Compile Include="Assets\3.SAWADA\Script\Car.cs" />
     <Compile Include="Assets\3.SAWADA\Script\Carseitei.cs" />
     <Compile Include="Assets\3.SAWADA\Script\ChekPoint.cs" />
+    <Compile Include="Assets\3.SAWADA\Script\GameOver.cs" />
     <Compile Include="Assets\3.SAWADA\Script\Golu.cs" />
+    <Compile Include="Assets\3.SAWADA\Script\Rezarut.cs" />
     <Compile Include="Assets\3.SAWADA\Script\Seni.cs" />
     <Compile Include="Assets\3.SAWADA\Script\Tenmrtu.cs" />
     <Compile Include="Assets\4.nakashima\CarSelect.cs" />

@@ -5,17 +5,18 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
+    public static Timer instar;
     public float timer;
     //カウントが終わったら出す画像？
     public GameObject endimage;
     //カウントダウン入れるテキスト
     public Text countText;
     //カウントダウンで使う
-    bool countbool = true;
+  public  bool countbool = true;
     // Start is called before the first frame update
     void Start()
     {
-        
+        instar = this;
     }
 
     // Update is called once per frame

@@ -8,7 +8,8 @@ public class ChekPoint : MonoBehaviour
     {
         if (coll.gameObject.tag == "Car")
         {
-
+            var cartimar = Timer.instar;
+            cartimar.timer += 10.0f;
             Debug.Log("ChekPoint");
         }
     }
