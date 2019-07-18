@@ -1,21 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class CarSelect : MonoBehaviour
 {
+    public string LoadName;
+    
     //キャンバス
     public GameObject CarSelectCanvas;
     //ボタンの上にある車
     public GameObject[] ButtonCar = new GameObject[2];
 
-    //生成する車
-    public GameObject[] Car = new GameObject[2];
-    
+  
     // Start is called before the first frame update
     void Start()
     {
-        
+        PlayerPrefs.DeleteKey("car_selt");
     }
 
     // Update is called once per frame
@@ -29,28 +29,18 @@ public class CarSelect : MonoBehaviour
         switch (number)
         {
             case 0:
-                //Car選択のCanvasを消す
-                CarSelectCanvas.SetActive(false);
-                //Buttonの上にある車を消す
-                ButtonCar[0].SetActive(false);
-                ButtonCar[1].SetActive(false);
-                //選ばれた車を生成する
-                Instantiate(Car[0], new Vector3(0, 0, 0), Quaternion.identity);
+                PlayerPrefs.SetInt("car_selt",1);
+                SceneManager.LoadScene(LoadName);
                 break;
             case 1:
-                //Car選択のCanvasを消す
-                CarSelectCanvas.SetActive(false);
-                //Buttonの上にある車を消す
-                ButtonCar[0].SetActive(false);
-                ButtonCar[1].SetActive(false);
-                //選ばれた車を生成する
-                Instantiate(Car[1], new Vector3(0, 0, 0), Quaternion.identity);
+                PlayerPrefs.SetInt("car_selt", 2);
+                SceneManager.LoadScene(LoadName);
                 break;
             default:
                 break;
         }
     }
-
+ 
     //Instatiateで呼び出しは確定
     //ステージ選択と同じ感じで選んだらCanvasを消してゲームを開始する
 }
