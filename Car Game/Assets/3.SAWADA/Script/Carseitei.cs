@@ -28,7 +28,7 @@ public class Carseitei : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
+        
     }
     
 }

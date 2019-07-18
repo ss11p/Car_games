@@ -13,10 +13,12 @@ public class Timer : MonoBehaviour
     public Text countText;
     //カウントダウンで使う
   public  bool countbool = true;
+  
     // Start is called before the first frame update
     void Start()
     {
         instar = this;
+
     }
 
     // Update is called once per frame
@@ -29,6 +31,7 @@ public class Timer : MonoBehaviour
             countbool = false;
             countText.text = "0.00" + "秒";
             endimage.SetActive(true);
+           
         }
     }
 

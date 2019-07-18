@@ -422,5 +422,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 679637700388602898, guid: 45e75eb3c91229d48ad75cb330e13c02,
+        type: 3}
+      propertyPath: maxMotorTorque
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45e75eb3c91229d48ad75cb330e13c02, type: 3}

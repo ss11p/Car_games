@@ -6,10 +6,11 @@ public class Car : MonoBehaviour
 {
     public static Car inatatic;
     public List<AxeleInfo> axleInfos;//個々の車軸の情報
-    public float maxMotorTorque=400;//ホイールに適用可能な最大トルク
+    public float maxMotorTorque;//ホイールに適用可能な最大トルク
     public float maxSteeringAngle=30;//適用可能な最大ハンドル角度
     public void Start()
     {
+        maxMotorTorque = 400;
         transform.Rotate(0, 180, 0);
     }
     public void ApplyLocalPosiitonToVisuals(WheelCollider collider)
@@ -50,7 +51,17 @@ public class Car : MonoBehaviour
             ApplyLocalPosiitonToVisuals(axeleInfo.leftWheel);
             ApplyLocalPosiitonToVisuals(axeleInfo.rightWheel);
         }
+        var timers = Timer.instar;
+        if (timers.timer <= 0)
+        {
+            maxMotorTorque = 0;
+        }
+        if (timers.timer == 60)
+        {
+            maxMotorTorque = 400;
+        }
     }
+ 
 }
 [System.Serializable]
 public class AxeleInfo
