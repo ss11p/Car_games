@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 	"process_id" : 15016,
+=======
+	"process_id" : 11268,
+>>>>>>> origin/sawada
 	"version" : "2018.3.4f1",
 	"app_path" : "C:/Program Files/Unity/Editor/Unity.exe",
 	"app_contents_path" : "C:/Program Files/Unity/Editor/Data"
