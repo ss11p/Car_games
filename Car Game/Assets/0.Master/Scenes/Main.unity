@@ -5613,9 +5613,6 @@ MonoBehaviour:
   endimage: {fileID: 1995685817}
   countText: {fileID: 760176819}
   countbool: 1
-  Cars:
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &811630400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7994,7 +7991,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30EA\u30D7\u30EC\u30A4"
+  m_Text: "\u9078\u629E\u753B\u9762\u306B\u623B\u308B"
 --- !u!222 &1293253465
 CanvasRenderer:
   m_ObjectHideFlags: 0
