@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/2.Katou/Scene/Test.unity
+=======
+- path: Assets/0.Master/Scenes/Main.unity
+>>>>>>> origin/sawada
   isLoaded: 1
   isActive: 1

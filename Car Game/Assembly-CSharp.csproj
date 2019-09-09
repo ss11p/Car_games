@@ -54,7 +54,17 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\2.Katou\Efe\Effect\Effect.cs" />
-     <Compile Include="Assets\3.SAWADA\Car.cs" />
+     <Compile Include="Assets\3.SAWADA\Script\Car.cs" />
+     <Compile Include="Assets\3.SAWADA\Script\Carseitei.cs" />
+     <Compile Include="Assets\3.SAWADA\Script\ChekPoint.cs" />
+     <Compile Include="Assets\3.SAWADA\Script\GameOver.cs" />
+     <Compile Include="Assets\3.SAWADA\Script\Golu.cs" />
+     <Compile Include="Assets\3.SAWADA\Script\Rezarut.cs" />
+     <Compile Include="Assets\3.SAWADA\Script\Seni.cs" />
+     <Compile Include="Assets\3.SAWADA\Script\Tenmrtu.cs" />
+     <Compile Include="Assets\4.nakashima\CarSelect.cs" />
+     <Compile Include="Assets\4.nakashima\SceneMove.cs" />
+     <Compile Include="Assets\4.nakashima\Timer.cs" />
      <Compile Include="Assets\UnityTile3D\Tile3D\Tile3D.cs" />
      <Compile Include="Assets\UnityTile3D\Tile3D\Vector3Ext.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">

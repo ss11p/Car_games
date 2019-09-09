@@ -5,7 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/0.Master/Scenes/Taitol.unity
+    guid: b1ea1066698d50347b758b9f57fd014a
+  - enabled: 1
+    path: Assets/0.Master/Scenes/Select.unity
+    guid: 6a890d879c006cf4591f412cadcd6b49
+  - enabled: 1
+    path: Assets/0.Master/Scenes/test.unity
+    guid: 2f872b0f3bdfa574ba65fa05ebe01a1b
+  - enabled: 1
+    path: Assets/0.Master/Scenes/Main.unity
+    guid: c5ebf18f819ddb3499eb922b0eee4c17
+  - enabled: 1
+    path: Assets/0.Master/Scenes/Rezaruto.unity
+    guid: da1a165959bd8d342a650efdb9a8f242
   m_configObjects: {}
