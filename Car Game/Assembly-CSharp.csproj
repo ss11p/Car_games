@@ -70,6 +70,8 @@
      <Compile Include="Assets\4.nakashima\Testmove.cs" />
      <Compile Include="Assets\4.nakashima\Timer.cs" />
      <Compile Include="Assets\4.nakashima\WheeRotationl.cs" />
+     <Compile Include="Assets\UnityTile3D\Tile3D\Tile3D.cs" />
+     <Compile Include="Assets\UnityTile3D\Tile3D\Vector3Ext.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/user/Desktop/Car_games/Car Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
