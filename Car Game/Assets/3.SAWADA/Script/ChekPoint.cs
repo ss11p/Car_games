@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class ChekPoint : MonoBehaviour
 {
+    //チェックポイントに来た際一度だけ制限時間を加算する際の判別
+    bool Checkbool = true;
+    
     void OnTriggerEnter(Collider coll)
     {
-        if (coll.gameObject.tag == "Car")
+        if (Checkbool == true)
         {
-            var cartimar = Timer.instar;
-            cartimar.timer += 10.0f;
-            Debug.Log("ChekPoint");
+            if (coll.gameObject.tag == "Car")
+            {
+                var cartimar = Timer.instar;
+                cartimar.timer += 10.0f;
+                Debug.Log("ChekPoint");
+                //制限時間を追加したらfalseにしてもう一度加算しないようにする
+                Checkbool = false;
+            }
         }
     }
         // Start is called before the first frame update
