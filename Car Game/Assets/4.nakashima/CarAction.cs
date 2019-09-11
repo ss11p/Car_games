@@ -30,7 +30,7 @@ public class CarAction : MonoBehaviour
     void OnCollisionEnter(Collision colobj)
     {
         //Playerと接触したら
-        if (colobj.gameObject.tag == "Player")
+        if (colobj.gameObject.tag == "Car")
         {
             //↑方向に飛ばす
             EnemyRb.AddForce(transform.up * Actionspeed);

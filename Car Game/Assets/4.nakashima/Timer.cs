@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
     public static Timer instar;
     public float timer;
     //カウントが終わったら出す画像？
-    public GameObject endimage;
+    public  GameObject endimage;
     //カウントダウン入れるテキスト
     public Text countText;
     //カウントダウンで使う

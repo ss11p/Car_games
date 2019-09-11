@@ -13,10 +13,10 @@ public class Carseitei : MonoBehaviour
         switch (PlayerPrefs.GetInt("car_selt"))
         { 
             case 1:
-                Instantiate(Car[0], new Vector3(-64, 1, 57), Quaternion.identity);
+                Instantiate(Car[0], new Vector3(-76.2f, 2, 63.6f), Quaternion.identity);
                 break;
             case 2:
-                Instantiate(Car[1], new Vector3(-64, 1, 53), Quaternion.identity);
+                Instantiate(Car[1], new Vector3(-76.2f, 2, 63.6f), Quaternion.identity);
                 break;
             default:
                 break;
