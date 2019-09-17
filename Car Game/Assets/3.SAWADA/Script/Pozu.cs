@@ -5,7 +5,7 @@ using UnityEngine;
 public class Pozu : MonoBehaviour
 {
     [SerializeField]
-    private GameObject pozuUI;
+    public GameObject pozuCanvas;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +17,8 @@ public class Pozu : MonoBehaviour
     {
         if (Input.GetKeyDown("q"))
         {
-            pozuUI.SetActive(!pozuUI.activeSelf);
-            if (pozuUI.activeSelf)
+            pozuCanvas.SetActive(!pozuCanvas.activeSelf);
+            if (pozuCanvas.activeSelf)
             {
                 Time.timeScale = 0f;
             }
