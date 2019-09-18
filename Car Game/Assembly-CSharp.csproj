@@ -67,6 +67,8 @@
     <Compile Include="Assets\3.SAWADA\Script\PozuMenu.cs" />
     <Compile Include="Assets\3.SAWADA\Script\Rezarut.cs" />
     <Compile Include="Assets\3.SAWADA\Script\Seni.cs" />
+    <Compile Include="Assets\3.SAWADA\Script\StagMove.cs" />
+    <Compile Include="Assets\3.SAWADA\Script\StagSeni.cs" />
     <Compile Include="Assets\3.SAWADA\Script\Tenmrtu.cs" />
     <Compile Include="Assets\3.SAWADA\Script\zyougai.cs" />
     <Compile Include="Assets\4.nakashima\CarAction.cs" />

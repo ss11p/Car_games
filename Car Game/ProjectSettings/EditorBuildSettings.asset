@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/0.Master/Scenes/Main.unity
     guid: c5ebf18f819ddb3499eb922b0eee4c17
   - enabled: 1
+    path: Assets/0.Master/Scenes/Main2.unity
+    guid: 36815055f9a8a1a4cb76cda4ec2c9815
+  - enabled: 1
     path: Assets/0.Master/Scenes/Rezaruto.unity
     guid: da1a165959bd8d342a650efdb9a8f242
   m_configObjects: {}

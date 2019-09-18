@@ -17,7 +17,7 @@ public class PozuMenu : MonoBehaviour
     }
  public   void Reload()
     {
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Time.timeScale = 1f;
     }
  public   void Retaitol()
