@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Carseitei : MonoBehaviour
 {     //生成する車
     public GameObject[] Car = new GameObject[2];

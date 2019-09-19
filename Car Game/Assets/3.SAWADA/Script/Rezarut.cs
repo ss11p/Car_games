@@ -2,15 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class Rezarut : MonoBehaviour
 {
+    public static int Scnenes;
  public   void Ontaitol()
     {
         SceneManager.LoadScene("Taitol");
     }
 public    void Onplay()
     {
-        SceneManager.LoadScene("Main");
+        if (Scnenes == 1)
+        {
+            SceneManager.LoadScene("Main");
+        }
+        if (Scnenes == 2)
+        {
+            SceneManager.LoadScene("Main2");
+        }
+
+
     }
     // Start is called before the first frame update
     void Start()

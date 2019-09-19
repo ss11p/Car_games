@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class CarSelect : MonoBehaviour
 {
-    public string LoadName;
+    
     
     //キャンバス
     public GameObject CarSelectCanvas;
@@ -30,11 +30,11 @@ public class CarSelect : MonoBehaviour
         {
             case 0:
                 PlayerPrefs.SetInt("car_selt",1);
-                SceneManager.LoadScene(LoadName);
+               
                 break;
             case 1:
                 PlayerPrefs.SetInt("car_selt", 2);
-                SceneManager.LoadScene(LoadName);
+               
                 break;
             default:
                 break;

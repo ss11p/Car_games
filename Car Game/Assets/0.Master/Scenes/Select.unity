@@ -182,7 +182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: "\u30B9\u30C6\u30FC\u30B8\uFF11"
 --- !u!222 &288837205
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -432,8 +432,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 540116826}
-        m_MethodName: Movemove
-        m_Mode: 1
+        m_MethodName: SelectClick
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -481,7 +481,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 540116821}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abdcad4c24814ae4db53b09d46eba9a6, type: 3}
+  m_Script: {fileID: 11500000, guid: 1f0ba7fcb0a8c0b47952b25dd1c080fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   LoadName: test
@@ -522,7 +522,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 120, y: 0.00000011920929}
+  m_AnchoredPosition: {x: 120, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &662660350
@@ -566,12 +566,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 662660353}
-        m_MethodName: Movemove
-        m_Mode: 1
+        m_MethodName: SelectClick
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -624,7 +624,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 662660348}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abdcad4c24814ae4db53b09d46eba9a6, type: 3}
+  m_Script: {fileID: 11500000, guid: 1f0ba7fcb0a8c0b47952b25dd1c080fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   LoadName: test
@@ -698,7 +698,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: "\u30B9\u30C6\u30FC\u30B8\uFF12"
 --- !u!222 &933061835
 CanvasRenderer:
   m_ObjectHideFlags: 0
