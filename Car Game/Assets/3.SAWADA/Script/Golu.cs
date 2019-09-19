@@ -17,7 +17,14 @@ public class Golu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
+        if (SceneManager.GetActiveScene().name == "Main")
+        {
+            Rezarut.Scnenes = 1;
+        }
+        if (SceneManager.GetActiveScene().name == "Main2")
+        {
+            Rezarut.Scnenes = 2;
+        }
     }
     void OnTriggerEnter(Collider coll)
     {
