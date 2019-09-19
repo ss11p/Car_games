@@ -10,7 +10,7 @@ public class ScoreManager : MonoBehaviour
     Vector3 init_pos;
 
     public int point;
-    private float size = 1.0f;
+    //private float size = 1.0f;
 
     private static int dam_sort = 0;
     private const int SORT_MAX = 30000;
