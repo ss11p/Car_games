@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour
-{     //生成する車
-    public GameObject[] Cars = new GameObject[2];
+{
     public GameObject GameOverCanvas;
     Car carsuript1;
     GameObject Car_root;
@@ -19,8 +18,9 @@ public class GameOver : MonoBehaviour
     }
     public void Onplay()
     {
-        SceneManager.LoadScene("Select");
-        }
+        Scene loadScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(loadScene.name);
+    }
     // Start is called before the first frame update
 
     // Update is called once per frame

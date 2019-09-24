@@ -10,7 +10,7 @@ public class Car : MonoBehaviour
     public float maxSteeringAngle=30;//適用可能な最大ハンドル角度
     public void Start()
     {
-        maxMotorTorque = 400;
+        maxMotorTorque = 900;
         transform.Rotate(0, 180, 0);
     }
     public void ApplyLocalPosiitonToVisuals(WheelCollider collider)

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/3.SAWADA/Scene/Test2.unity
+- path: Assets/0.Master/Scenes/Main.unity
   isLoaded: 1
   isActive: 1
