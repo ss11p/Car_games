@@ -20,9 +20,17 @@ public class Outen : MonoBehaviour
         }
         }
     IEnumerator GameOverCanvas()
-    {//３秒経過後に回転する
+    {
+      
         yield return new WaitForSeconds(3);
         GameoverCanvas.SetActive(true);
+        if (GameoverCanvas.activeSelf)
+        {
+            Time.timeScale = 0f;
+        }else
+        {
+            Time.timeScale = 1f;
+        }
     }
         // Start is called before the first frame update
         void Start()

@@ -20,6 +20,7 @@ public class GameOver : MonoBehaviour
     {
         Scene loadScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(loadScene.name);
+        Time.timeScale = 1f;
     }
     // Start is called before the first frame update
 
