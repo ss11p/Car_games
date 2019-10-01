@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class StagSeni : MonoBehaviour
 {
-    public string LoadName;
+ 
     // Start is called before the first frame update
     void Start()
     {
@@ -22,12 +22,10 @@ public class StagSeni : MonoBehaviour
         switch (number)
         {
             case 0:
-                PlayerPrefs.SetInt("Stag_selt", 1);
-                SceneManager.LoadScene(LoadName);
+                SceneManager.LoadScene("Main");
                 break;
             case 1:
-                PlayerPrefs.SetInt("Stag_selt", 2);
-                SceneManager.LoadScene(LoadName);
+                SceneManager.LoadScene("Main2");
                 break;
             default:
                 break;
