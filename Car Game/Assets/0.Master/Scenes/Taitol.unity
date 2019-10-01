@@ -347,7 +347,7 @@ RectTransform:
   m_GameObject: {fileID: 1612968841}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.0264063, y: 2.275, z: 1}
   m_Children: []
   m_Father: {fileID: 930736705}
   m_RootOrder: 0
@@ -379,7 +379,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 27
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -390,7 +390,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Car Game
+  m_Text: "\u5371\u967A\u306A\u5B85\u914D\u30B2\u30FC\u30E0"
 --- !u!222 &1612968844
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class ObjecetActive : MonoBehaviour
 {
+    
     //ActiveをfalseにしてあるObjを入れる（個数は自由）
     public GameObject[] ActiveObj;
     // Start is called before the first frame update
     void Start()
     {
-       
+        Active();
     }
 
     // Update is called once per frame

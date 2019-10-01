@@ -62,6 +62,7 @@
     <Compile Include="Assets\3.SAWADA\Script\CarMove.cs" />
     <Compile Include="Assets\3.SAWADA\Script\Carseitei.cs" />
     <Compile Include="Assets\3.SAWADA\Script\ChekPoint.cs" />
+    <Compile Include="Assets\3.SAWADA\Script\Chekpoints.cs" />
     <Compile Include="Assets\3.SAWADA\Script\GameOver.cs" />
     <Compile Include="Assets\3.SAWADA\Script\Golu.cs" />
     <Compile Include="Assets\3.SAWADA\Script\Jump.cs" />
@@ -80,14 +81,15 @@
     <Compile Include="Assets\4.nakashima\Checkpoint.cs" />
     <Compile Include="Assets\4.nakashima\EnemyCarScript.cs" />
     <Compile Include="Assets\4.nakashima\NumCtrl.cs" />
+    <Compile Include="Assets\4.nakashima\ObjecetActive.cs" />
     <Compile Include="Assets\4.nakashima\PlayerManager.cs" />
     <Compile Include="Assets\4.nakashima\PopupDamage.cs" />
     <Compile Include="Assets\4.nakashima\SceneMove.cs" />
     <Compile Include="Assets\4.nakashima\ScoreManager.cs" />
     <Compile Include="Assets\4.nakashima\test1.cs" />
+    <Compile Include="Assets\4.nakashima\test11.cs" />
     <Compile Include="Assets\4.nakashima\Testmove.cs" />
     <Compile Include="Assets\4.nakashima\Timer.cs" />
-    <Compile Include="Assets\4.nakashima\WheeRotationl.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/user/Desktop/Car_games/Car Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
