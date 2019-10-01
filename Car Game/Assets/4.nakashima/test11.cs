@@ -2,18 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WheeRotationl : MonoBehaviour
+public class test11 : MonoBehaviour
 {
+    public ObjecetActive objecetActive;
     // Start is called before the first frame update
     void Start()
-    {
-        
+    { 
+        //呼び出されているかの確認
+        objecetActive.Active();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //ｘの方に回転させるだけｗ
-        transform.Rotate(Vector3.right * 1000 * Time.deltaTime);
+        
     }
 }
