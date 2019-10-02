@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Nimotu : MonoBehaviour
 {
-  
+    public Text NimotuText;
  public static   int nimotu;
     // Start is called before the first frame update
     void Start()
@@ -15,6 +15,6 @@ public class Nimotu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<TextMesh>().text = "=" + nimotu;
+        NimotuText.text = "=" + nimotu;
     }
 }
