@@ -15,6 +15,7 @@ public class GameOver : MonoBehaviour
     public void Ontaitol()
     {
         SceneManager.LoadScene("Taitol");
+        Time.timeScale = 1f;
     }
     public void Onplay()
     {

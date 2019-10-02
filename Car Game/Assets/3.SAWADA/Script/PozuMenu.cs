@@ -18,9 +18,11 @@ public class PozuMenu : MonoBehaviour
  public   void ReSentaku()
     {
         SceneManager.LoadScene("Select");
+        Time.timeScale = 1;
     }
  public   void Retaitol()
     {
         SceneManager.LoadScene("Taitol");
+        Time.timeScale = 1;
     }
 }
