@@ -25,17 +25,14 @@ public class Chekpoints : MonoBehaviour
 
 
         //基本こちらで呼び出し
-        while (true)
-        {
+       
             //0～オブジェクトの最大数まで
             var ObjNumber = Random.Range(0, ActiveObj.Length);
-            if (randomList.Contains(ObjNumber))
-            {
-                continue;
-            }
-            //一度だけ呼び出し
+
             ActiveObj[ObjNumber].SetActive(true);
+        Debug.Log(ObjNumber);
+
         }
       
-    }
+    
 }
