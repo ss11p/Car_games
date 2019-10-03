@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class ObjecetActive : MonoBehaviour
 {
-    
     //ActiveをfalseにしてあるObjを入れる（個数は自由）
     public GameObject[] ActiveObj;
     // Start is called before the first frame update
     void Start()
     {
-        Active();
+        //0～オブジェクトの最大数まで
+        var ObjNumber = Random.Range(0, ActiveObj.Length);
+        //一度だけ呼び出し
+        ActiveObj[ObjNumber].SetActive(true);
+        Debug.Log(ActiveObj[ObjNumber] + "呼び出し成功");
     }
 
     // Update is called once per frame
