@@ -25,7 +25,7 @@ public class Timer : MonoBehaviour
     {
         instar = this;
         timer= minute * 60 + seconds;
-        oldSeconds = 0f;
+        oldSeconds = 1f;
     }
 
     // Update is called once per frame
