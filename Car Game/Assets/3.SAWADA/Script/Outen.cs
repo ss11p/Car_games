@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Outen : MonoBehaviour
 {
+    public AudioClip sound1;
     public GameObject GameoverCanvas;
+    AudioSource audioSource;
     void OnTriggerEnter(Collider coll)
     {
         if (coll.gameObject.tag == "GameOver")
         {
+            audioSource.PlayOneShot(sound1);
             StartCoroutine("GameOverCanvas");
         }
     }
@@ -35,7 +38,8 @@ public class Outen : MonoBehaviour
         // Start is called before the first frame update
         void Start()
     {
-        
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
