@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Nimotu : MonoBehaviour
 {
-    public Text nimtuText;
+    public Text NimotuText;
  public static   int nimotu;
     // Start is called before the first frame update
     void Start()
@@ -15,6 +15,6 @@ public class Nimotu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        nimtuText.text = "届けた荷物の数:" + nimotu;
+        NimotuText.text = "=" + nimotu;
     }
 }

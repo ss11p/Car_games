@@ -11,24 +11,29 @@ public class CountDown : MonoBehaviour
     int second;
     //表示するText
     public Text TimerText;
-
+    public GameObject CountDouns;
     //Findで取得したオブジェクトを入れる
-    private GameObject PlayerObj;
+     GameObject PlayerObj;
     //カウントダウンを止めるBool
     bool CountBool = true;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        PlayerObj = GameObject.Find("SUV");
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        //PlayerのTag検索
-        PlayerObj = GameObject.Find("F1_root");
+        Debug.Log(PlayerObj);
+        var timar = Timer.instar;
+        timar.countbool = false;
+        PlayerObj.GetComponent<Car>().enabled = false;
+
         //var obj = PlayerObj.GetComponent<Car>();
-        if(CountBool == true)
+        if (CountBool == true)
         {
             Count -= Time.deltaTime;           
         }
@@ -56,6 +61,7 @@ public class CountDown : MonoBehaviour
             
             //プレイヤーを移動させるScriptをTrueにする
             PlayerObj.GetComponent<Car>().enabled = true;
+            timar.countbool = true;
             //1秒後textを消す
             Invoke("TextActive", 1);
         }
@@ -65,6 +71,7 @@ public class CountDown : MonoBehaviour
         //カウントダウンが終わったらこのScriptを止める
         this.GetComponent<CountDown>().enabled = false;
         //カウントダウンのText（この場合アタッチ先がText）を消す
-        gameObject.SetActive(false);      
+        CountDouns.SetActive(false);
+
     }
 }
