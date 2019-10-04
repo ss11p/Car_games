@@ -78,9 +78,9 @@
 /reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
-/reference:"C:/Users/user/Desktop/Car_games/Car Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
-/reference:"C:/Users/user/Desktop/Car_games/Car Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
-/reference:"C:/Users/user/Desktop/Car_games/Car Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+/reference:"C:/Users/user/Desktop/CarGame/Car Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+/reference:"C:/Users/user/Desktop/CarGame/Car Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
+/reference:"C:/Users/user/Desktop/CarGame/Car Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
 /reference:"C:\Program Files\Unity\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll"
 /reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\Microsoft.Win32.Primitives.dll"
 /reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.AppContext.dll"
@@ -323,6 +323,7 @@ Assets\4.nakashima\CarSelect.cs
 Assets\4.nakashima\Checkpoint.cs
 Assets\4.nakashima\CountDown.cs
 Assets\4.nakashima\EnemyCarScript.cs
+Assets\4.nakashima\EnemyMove.cs
 Assets\4.nakashima\ObjecetActive.cs
 Assets\4.nakashima\PlayerManager.cs
 Assets\4.nakashima\SceneMove.cs

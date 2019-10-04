@@ -1,6 +1,6 @@
 /target:library
 /nowarn:0169
-/out:Temp/Assembly-CSharp.dll
+/out:Temp/Unity.Analytics.DataPrivacy.dll
 /debug:portable
 /optimize-
 /nostdlib+
@@ -68,19 +68,27 @@
 /reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll"
 /reference:"C:\Program Files\Unity\Editor\Data\Managed/Unity.Locator.dll"
-/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
-/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
-/reference:Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 /reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
-/reference:"C:/Users/user/Desktop/Car_games/Car Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
-/reference:"C:/Users/user/Desktop/Car_games/Car Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
-/reference:"C:/Users/user/Desktop/Car_games/Car Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"C:/Users/user/Desktop/CarGame/Car Game/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll"
+/reference:"C:/Users/user/Desktop/CarGame/Car Game/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll"
+/reference:"C:/Users/user/Desktop/CarGame/Car Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll"
+/reference:"C:/Users/user/Desktop/CarGame/Car Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll"
+/reference:"C:/Users/user/Desktop/CarGame/Car Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll"
+/reference:"C:/Users/user/Desktop/CarGame/Car Game/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll"
+/reference:"C:/Users/user/Desktop/CarGame/Car Game/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll"
 /reference:"C:\Program Files\Unity\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll"
 /reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\Microsoft.Win32.Primitives.dll"
 /reference:"C:\Program Files\Unity\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard\System.AppContext.dll"
@@ -296,35 +304,6 @@
 /define:ENABLE_VSTU
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-Assets\2.Katou\Efe\Effect\Effect.cs
-Assets\2.Katou\UnityTile3D\Tile3D\Tile3D.cs
-Assets\2.Katou\UnityTile3D\Tile3D\Vector3Ext.cs
-Assets\3.SAWADA\Script\Car.cs
-Assets\3.SAWADA\Script\CarMove.cs
-Assets\3.SAWADA\Script\Carseitei.cs
-Assets\3.SAWADA\Script\ChekPoint.cs
-Assets\3.SAWADA\Script\Chekpoints.cs
-Assets\3.SAWADA\Script\CountDown2.cs
-Assets\3.SAWADA\Script\GameOver.cs
-Assets\3.SAWADA\Script\Golu.cs
-Assets\3.SAWADA\Script\Jump.cs
-Assets\3.SAWADA\Script\Nimotu.cs
-Assets\3.SAWADA\Script\Outen.cs
-Assets\3.SAWADA\Script\Pozu.cs
-Assets\3.SAWADA\Script\PozuMenu.cs
-Assets\3.SAWADA\Script\Rezarut.cs
-Assets\3.SAWADA\Script\Seni.cs
-Assets\3.SAWADA\Script\Sound.cs
-Assets\3.SAWADA\Script\StagMove.cs
-Assets\3.SAWADA\Script\StagSeni.cs
-Assets\3.SAWADA\Script\Tenmrtu.cs
-Assets\4.nakashima\CarAction.cs
-Assets\4.nakashima\CarSelect.cs
-Assets\4.nakashima\Checkpoint.cs
-Assets\4.nakashima\CountDown.cs
-Assets\4.nakashima\EnemyCarScript.cs
-Assets\4.nakashima\ObjecetActive.cs
-Assets\4.nakashima\PlayerManager.cs
-Assets\4.nakashima\SceneMove.cs
-Assets\4.nakashima\Testmove.cs
-Assets\4.nakashima\Timer.cs
+"C:\Users\user\Desktop\CarGame\Car Game\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\AssemblyInfo.cs"
+"C:\Users\user\Desktop\CarGame\Car Game\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacy.cs"
+"C:\Users\user\Desktop\CarGame\Car Game\Library\PackageCache\com.unity.analytics@3.2.2\DataPrivacy\DataPrivacyButton.cs"

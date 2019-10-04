@@ -206,6 +206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Count: 4
   TimerText: {fileID: 47712743}
+  CountDouns: {fileID: 0}
 --- !u!1 &218813074 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7712230374466882086, guid: 4ef2d3795c964fb46806fd6c376bf7a9,
@@ -580,7 +581,7 @@ GameObject:
   - component: {fileID: 912075332}
   - component: {fileID: 912075331}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: flore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -694,8 +695,8 @@ MonoBehaviour:
   points:
   - {fileID: 1268110430}
   - {fileID: 1225067932}
-  - {fileID: 802326524}
   - {fileID: 873747599}
+  - {fileID: 802326524}
 --- !u!65 &980423706
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -778,7 +779,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 10
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
