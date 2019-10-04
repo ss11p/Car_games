@@ -13,7 +13,7 @@ public class CountDown : MonoBehaviour
     public Text TimerText;
 
     //Findで取得したオブジェクトを入れる
-    public GameObject PlayerObj;
+    private GameObject PlayerObj;
     //カウントダウンを止めるBool
     bool CountBool = true;
     // Start is called before the first frame update

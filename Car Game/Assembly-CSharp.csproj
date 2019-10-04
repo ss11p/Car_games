@@ -80,6 +80,7 @@
     <Compile Include="Assets\4.nakashima\Checkpoint.cs" />
     <Compile Include="Assets\4.nakashima\CountDown.cs" />
     <Compile Include="Assets\4.nakashima\EnemyCarScript.cs" />
+    <Compile Include="Assets\4.nakashima\EnemyMove.cs" />
     <Compile Include="Assets\4.nakashima\ObjecetActive.cs" />
     <Compile Include="Assets\4.nakashima\PlayerManager.cs" />
     <Compile Include="Assets\4.nakashima\SceneMove.cs" />
