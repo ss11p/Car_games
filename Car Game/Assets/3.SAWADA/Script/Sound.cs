@@ -4,22 +4,50 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Sound : MonoBehaviour
 {
-    public bool DontDestroyEnabled = true;
+    public AudioSource titleBGM;
+    private string beforeScene = "Taitol";
     // Start is called before the first frame update
     void Start()
     {
-        if (DontDestroyEnabled)
-        {
-            DontDestroyOnLoad(this);
-        }
+        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(titleBGM.gameObject);
+        SceneManager.activeSceneChanged += OnActiveSceneChanged;
     }
-
-    // Update is called once per frame
-    void Update()
+    void OnActiveSceneChanged(Scene prevScene, Scene nextScene)
     {
-        if (SceneManager.GetActiveScene().name == "Main")
+        if (beforeScene == "Select" && nextScene.name == "Main")
         {
-            DontDestroyEnabled = false;
+            titleBGM.Stop();
         }
+        if (beforeScene == "Select" && nextScene.name == "Main2")
+        {
+            titleBGM.Stop();
+        }
+        if (beforeScene == "Rezaruto" && nextScene.name == "Taitol")
+        {
+            titleBGM.Play();
+        }
+        if (beforeScene == "Main" && nextScene.name == "Taitol")
+        {
+            titleBGM.Play();
+        }
+        if (beforeScene == "Main2" && nextScene.name == "Taitol")
+        {
+            titleBGM.Play();
+        }
+        if (beforeScene == "Main" && nextScene.name == "Select")
+        {
+            titleBGM.Play();
+        }
+        if (beforeScene == "Main2" && nextScene.name == "Select")
+        {
+            titleBGM.Play();
+        }
+        beforeScene = nextScene.name;
+    }
+        // Update is called once per frame
+        void Update()
+    {
+      
     }
 }
