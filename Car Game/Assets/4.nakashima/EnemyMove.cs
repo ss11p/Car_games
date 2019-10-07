@@ -20,6 +20,8 @@ public class EnemyMove : MonoBehaviour
     float quitRange = 20f;
     bool tracking = false;
 
+    public string PlayerName;
+
     //プレイヤーが入る変数（追尾対象）
     private GameObject Target;
     //↑のポジションを入れる変数
@@ -40,7 +42,7 @@ public class EnemyMove : MonoBehaviour
     {
         //↓のだと重くなる、カクつくならどうにかする（かもかも）
         //プレイヤーの名前を検索して変数にいれる
-        Target = GameObject.Find("SUV_root(Clone)");
+        Target = GameObject.Find(PlayerName);
         //追尾する対象の場所取得
         TargetPos = Target.transform.position;
         distance = Vector3.Distance(this.transform.position, TargetPos);
