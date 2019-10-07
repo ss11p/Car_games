@@ -14,10 +14,13 @@ public class EnemyMove : MonoBehaviour
     private NavMeshAgent agent;
 
     float distance;
-
-    float trackingRange = 3f;
-    float quitRange = 5f;
+    //追尾し始まる範囲
+    float trackingRange = 10f;
+    //巡回に戻る範囲
+    float quitRange = 20f;
     bool tracking = false;
+
+    public string PlayerName;
 
     //プレイヤーが入る変数（追尾対象）
     private GameObject Target;
@@ -39,7 +42,7 @@ public class EnemyMove : MonoBehaviour
     {
         //↓のだと重くなる、カクつくならどうにかする（かもかも）
         //プレイヤーの名前を検索して変数にいれる
-        Target = GameObject.Find("F1_root");
+        Target = GameObject.Find(PlayerName);
         //追尾する対象の場所取得
         TargetPos = Target.transform.position;
         distance = Vector3.Distance(this.transform.position, TargetPos);
@@ -90,14 +93,14 @@ public class EnemyMove : MonoBehaviour
         destPoint = (destPoint + 1) % points.Length;
     }
 
-    void OnDrawGizmosSelected()
-    {
-        //範囲の表示trackingRange
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, trackingRange);
+    //void OnDrawGizmosSelected()
+    //{
+    //    //範囲の表示trackingRange
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawWireSphere(transform.position, trackingRange);
 
-        //範囲の表示quitRange
-        Gizmos.color = Color.blue;
-        Gizmos.DrawWireSphere(transform.position, quitRange);
-    }
+    //    //範囲の表示quitRange
+    //    Gizmos.color = Color.blue;
+    //    Gizmos.DrawWireSphere(transform.position, quitRange);
+    //}
 }
