@@ -57,7 +57,6 @@
      <Compile Include="Assets\2.Katou\UnityTile3D\Tile3D\Tile3D.cs" />
      <Compile Include="Assets\2.Katou\UnityTile3D\Tile3D\Vector3Ext.cs" />
      <Compile Include="Assets\3.SAWADA\Script\Car.cs" />
-     <Compile Include="Assets\3.SAWADA\Script\CarMove.cs" />
      <Compile Include="Assets\3.SAWADA\Script\Carseitei.cs" />
      <Compile Include="Assets\3.SAWADA\Script\ChekPoint.cs" />
      <Compile Include="Assets\3.SAWADA\Script\Chekpoints.cs" />
