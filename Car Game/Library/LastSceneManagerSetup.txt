@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/4.nakashima/Scene/Main2 test.unity
+- path: Assets/0.Master/Scenes/Main2.unity
   isLoaded: 1
   isActive: 1
