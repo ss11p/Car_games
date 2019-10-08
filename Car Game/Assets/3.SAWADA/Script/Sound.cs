@@ -27,6 +27,10 @@ public class Sound : MonoBehaviour
         {
             titleBGM.Play();
         }
+        if (beforeScene == "Rezaruto2" && nextScene.name == "Taitol")
+        {
+            titleBGM.Play();
+        }
         if (beforeScene == "Main" && nextScene.name == "Taitol")
         {
             titleBGM.Play();

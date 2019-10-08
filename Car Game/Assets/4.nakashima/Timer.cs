@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
+    public string LoadName;
     public static Timer instar;
     public float timer;
     //カウントが終わったら出す画像？
@@ -38,7 +39,8 @@ public class Timer : MonoBehaviour
         {
             countbool = false;
             countText.text = "0.00" + "秒";
-            SceneManager.LoadScene("Rezaruto");
+
+            SceneManager.LoadScene(LoadName);
             if (SceneManager.GetActiveScene().name == "Main")
             {
                 Rezarut.Scnenes = 1;
