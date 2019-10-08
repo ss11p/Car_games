@@ -13,11 +13,11 @@ public class EnemyMove : MonoBehaviour
     int destPoint = 0;
     private NavMeshAgent agent;
 
-    float distance;
+    public float distance;
     //追尾し始まる範囲
-    float trackingRange = 10f;
+    float trackingRange = 30f;
     //巡回に戻る範囲
-    float quitRange = 20f;
+    float quitRange = 40f;
     bool tracking = false;
 
     public string PlayerName;
@@ -36,6 +36,16 @@ public class EnemyMove : MonoBehaviour
         agent.autoBraking = false;
         GotoNextPoint();
     }
+    void GotoNextPoint()
+    {
+        if (points.Length == 0)
+            return;
+
+        //agentが設定された目標地点に行くように設定
+        agent.destination = points[destPoint].position;
+        //配列内の次の位置を目標地点にして、必要なら出発地点に戻る
+        destPoint = (destPoint + 1) % points.Length;
+    }
 
     // Update is called once per frame
     void Update()
@@ -46,29 +56,23 @@ public class EnemyMove : MonoBehaviour
         //追尾する対象の場所取得
         TargetPos = Target.transform.position;
         distance = Vector3.Distance(this.transform.position, TargetPos);
-
-
-        //追尾する対象がいるかどうか
-        if(Target != null)
-        {
-            Move();
-        }
+        Debug.Log(distance);
+        Move();
     }
 
     void Move()
     {
         //moveTime -= Time.deltaTime;
-        if(tracking == true)
+        if(tracking)
         {
             //追跡時quitRangeより距離が離れたら中止
             if(distance > quitRange)
             {
                 tracking = false;
-
-                agent.destination = TargetPos;
-            }      
+            }
+            agent.destination = TargetPos;
         }
-        if(tracking == false)
+        else
         {
             //TargetがtrackingRangeより近づいたら追跡開始
             if(distance < trackingRange)
@@ -82,25 +86,14 @@ public class EnemyMove : MonoBehaviour
         }       
     }
 
-    void GotoNextPoint()
+    void OnDrawGizmosSelected()
     {
-        if (points.Length == 0)
-            return;
+        //範囲の表示trackingRange
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, trackingRange);
 
-        //agentが設定された目標地点に行くように設定
-        agent.destination = points[destPoint].position;
-        //配列内の次の位置を目標地点にして、必要なら出発地点に戻る
-        destPoint = (destPoint + 1) % points.Length;
+        //範囲の表示quitRange
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position, quitRange);
     }
-
-    //void OnDrawGizmosSelected()
-    //{
-    //    //範囲の表示trackingRange
-    //    Gizmos.color = Color.red;
-    //    Gizmos.DrawWireSphere(transform.position, trackingRange);
-
-    //    //範囲の表示quitRange
-    //    Gizmos.color = Color.blue;
-    //    Gizmos.DrawWireSphere(transform.position, quitRange);
-    //}
 }

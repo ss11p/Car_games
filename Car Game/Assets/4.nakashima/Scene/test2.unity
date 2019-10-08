@@ -697,6 +697,7 @@ MonoBehaviour:
   - {fileID: 1225067932}
   - {fileID: 873747599}
   - {fileID: 802326524}
+  PlayerName: F1_root
 --- !u!65 &980423706
 BoxCollider:
   m_ObjectHideFlags: 0
