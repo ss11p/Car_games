@@ -15,9 +15,9 @@ public class EnemyMove : MonoBehaviour
 
     public float distance;
     //追尾し始まる範囲
-    float trackingRange = 30f;
+    //float trackingRange = 30f;
     //巡回に戻る範囲
-    float quitRange = 40f;
+    //float quitRange = 40f;
     bool tracking = false;
 
     public string PlayerName;
@@ -56,44 +56,87 @@ public class EnemyMove : MonoBehaviour
         //追尾する対象の場所取得
         TargetPos = Target.transform.position;
         distance = Vector3.Distance(this.transform.position, TargetPos);
-        Debug.Log(distance);
-        Move();
+        Movemove();
     }
 
-    void Move()
+    //void Move()
+    //{
+    //    //moveTime -= Time.deltaTime;
+    //    if (tracking)
+    //    {
+    //        //追跡時quitRangeより距離が離れたら中止
+    //        if (distance > quitRange)
+    //        {
+    //            tracking = false;
+    //        }
+    //        //プレイヤーを追尾
+    //        agent.destination = TargetPos;
+    //    }
+    //    else
+    //    {
+    //        //TargetがtrackingRangeより近づいたら追跡開始
+    //        if (distance < trackingRange)
+    //        {
+    //            tracking = true;
+    //        }
+    //        if (!agent.pathPending && agent.remainingDistance < 0.5f)
+    //        {
+    //            GotoNextPoint();
+    //        }
+    //    }
+    //}
+
+    //void OnDrawGizmosSelected()
+    //{
+    //    //範囲の表示trackingRange
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawWireSphere(transform.position, trackingRange);
+
+    //    //範囲の表示quitRange
+    //    Gizmos.color = Color.blue;
+    //    Gizmos.DrawWireSphere(transform.position, quitRange);
+    //}
+    void Movemove()
     {
-        //moveTime -= Time.deltaTime;
-        if(tracking)
+        if (tracking)
         {
-            //追跡時quitRangeより距離が離れたら中止
-            if(distance > quitRange)
-            {
-                tracking = false;
-            }
+            //プレイヤーを追尾
             agent.destination = TargetPos;
         }
+
         else
         {
-            //TargetがtrackingRangeより近づいたら追跡開始
-            if(distance < trackingRange)
-            {
-                tracking = true;
-            }
-            if(!agent.pathPending && agent.remainingDistance < 0.5f)
+            if (!agent.pathPending && agent.remainingDistance < 0.5f)
             {
                 GotoNextPoint();
             }
-        }       
+        }
     }
 
-    void OnDrawGizmosSelected()
+    void OnTriggerEnter(Collider colStay)
     {
-        //範囲の表示trackingRange
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, trackingRange);
-
-        //範囲の表示quitRange
-        Gizmos.color = Color.blue;
-        Gizmos.DrawWireSphere(transform.position, quitRange);
+        //プレイヤーに設定しているトリガー範囲に入ったら～
+        if(colStay.gameObject.name == PlayerName)
+        {
+            //追尾開始
+            tracking = true;
+        }
+    }
+    void OnTriggerExit(Collider colExit)
+    {
+        //プレイヤーに設定しているトリガーの範囲から離れたらーEnemyにもTrigger入れないとダメ
+        if (colExit.gameObject.name == PlayerName)
+        {
+            //追尾をやめる
+            tracking = false;
+        }
+    } 
+    
+    void　OnCollisionEnter(Collision collisionEnter)
+    {
+        if(collisionEnter.gameObject.name == "SUV Body")
+        {
+            tracking = false;
+        }
     }
 }
