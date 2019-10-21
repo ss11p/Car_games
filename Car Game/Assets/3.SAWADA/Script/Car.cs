@@ -8,6 +8,7 @@ public class Car : MonoBehaviour
     public List<AxeleInfo> axleInfos;//個々の車軸の情報
     public float maxMotorTorque;//ホイールに適用可能な最大トルク
     public float maxSteeringAngle=30;//適用可能な最大ハンドル角度
+    public float maxBreakeTorque;
     public void Start()
     {
         maxMotorTorque = 900;
@@ -36,6 +37,7 @@ public class Car : MonoBehaviour
     {
         float motor = maxMotorTorque * Input.GetAxis("Vertical");
         float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
+        bool beake = Input.GetKey(KeyCode.B);
         foreach(AxeleInfo axeleInfo in axleInfos)
         {
             if (axeleInfo.steering)
@@ -47,6 +49,16 @@ public class Car : MonoBehaviour
             {
                 axeleInfo.leftWheel.motorTorque = motor;
                 axeleInfo.rightWheel.motorTorque = motor;
+            }
+            if (beake)
+            {
+                axeleInfo.leftWheel.brakeTorque = maxBreakeTorque;
+                axeleInfo.rightWheel.brakeTorque = maxBreakeTorque;
+            }
+            else
+            {
+                axeleInfo.leftWheel.brakeTorque = 0;
+                axeleInfo.rightWheel.brakeTorque = 0;
             }
             ApplyLocalPosiitonToVisuals(axeleInfo.leftWheel);
             ApplyLocalPosiitonToVisuals(axeleInfo.rightWheel);
@@ -71,4 +83,5 @@ public class AxeleInfo
     public WheelCollider rightWheel;
     public bool motor;//このホイールがエンジンにアタッチされているかどうか
     public bool steering;//このホイールがハンドルの角度を反映しているかどうか
+   public bool beake;
 }

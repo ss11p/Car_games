@@ -61,12 +61,15 @@ MonoBehaviour:
     rightWheel: {fileID: 9087590090782351552}
     motor: 1
     steering: 1
+    beake: 0
   - leftWheel: {fileID: 3220366352686049996}
     rightWheel: {fileID: 2486159057152985137}
     motor: 0
     steering: 0
-  maxMotorTorque: 400
+    beake: 0
+  maxMotorTorque: 900
   maxSteeringAngle: 30
+  maxBreakeTorque: 1000
 --- !u!1 &5715011397989016927
 GameObject:
   m_ObjectHideFlags: 0
