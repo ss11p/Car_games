@@ -58,8 +58,9 @@ public class Car : MonoBehaviour
         }
         if (timers.timer == 60)
         {
-            maxMotorTorque = 400;
+            maxMotorTorque = 900;
         }
+      
     }
  
 }
