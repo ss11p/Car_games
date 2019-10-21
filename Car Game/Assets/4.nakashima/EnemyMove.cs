@@ -13,11 +13,11 @@ public class EnemyMove : MonoBehaviour
     int destPoint = 0;
     private NavMeshAgent agent;
 
-    float distance;
+    public float distance;
     //追尾し始まる範囲
-    float trackingRange = 10f;
+    //float trackingRange = 30f;
     //巡回に戻る範囲
-    float quitRange = 20f;
+    //float quitRange = 40f;
     bool tracking = false;
 
     public string PlayerName;
@@ -36,52 +36,6 @@ public class EnemyMove : MonoBehaviour
         agent.autoBraking = false;
         GotoNextPoint();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //↓のだと重くなる、カクつくならどうにかする（かもかも）
-        //プレイヤーの名前を検索して変数にいれる
-        Target = GameObject.Find(PlayerName);
-        //追尾する対象の場所取得
-        TargetPos = Target.transform.position;
-        distance = Vector3.Distance(this.transform.position, TargetPos);
-
-
-        //追尾する対象がいるかどうか
-        if(Target != null)
-        {
-            Move();
-        }
-    }
-
-    void Move()
-    {
-        //moveTime -= Time.deltaTime;
-        if(tracking == true)
-        {
-            //追跡時quitRangeより距離が離れたら中止
-            if(distance > quitRange)
-            {
-                tracking = false;
-
-                agent.destination = TargetPos;
-            }      
-        }
-        if(tracking == false)
-        {
-            //TargetがtrackingRangeより近づいたら追跡開始
-            if(distance < trackingRange)
-            {
-                tracking = true;
-            }
-            if(!agent.pathPending && agent.remainingDistance < 0.5f)
-            {
-                GotoNextPoint();
-            }
-        }       
-    }
-
     void GotoNextPoint()
     {
         if (points.Length == 0)
@@ -93,6 +47,45 @@ public class EnemyMove : MonoBehaviour
         destPoint = (destPoint + 1) % points.Length;
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+        //↓のだと重くなる、カクつくならどうにかする（かもかも）
+        //プレイヤーの名前を検索して変数にいれる
+        Target = GameObject.Find(PlayerName);
+        //追尾する対象の場所取得
+        TargetPos = Target.transform.position;
+        distance = Vector3.Distance(this.transform.position, TargetPos);
+        Movemove();
+    }
+
+    //void Move()
+    //{
+    //    //moveTime -= Time.deltaTime;
+    //    if (tracking)
+    //    {
+    //        //追跡時quitRangeより距離が離れたら中止
+    //        if (distance > quitRange)
+    //        {
+    //            tracking = false;
+    //        }
+    //        //プレイヤーを追尾
+    //        agent.destination = TargetPos;
+    //    }
+    //    else
+    //    {
+    //        //TargetがtrackingRangeより近づいたら追跡開始
+    //        if (distance < trackingRange)
+    //        {
+    //            tracking = true;
+    //        }
+    //        if (!agent.pathPending && agent.remainingDistance < 0.5f)
+    //        {
+    //            GotoNextPoint();
+    //        }
+    //    }
+    //}
+
     //void OnDrawGizmosSelected()
     //{
     //    //範囲の表示trackingRange
@@ -103,4 +96,47 @@ public class EnemyMove : MonoBehaviour
     //    Gizmos.color = Color.blue;
     //    Gizmos.DrawWireSphere(transform.position, quitRange);
     //}
+    void Movemove()
+    {
+        if (tracking)
+        {
+            //プレイヤーを追尾
+            agent.destination = TargetPos;
+        }
+
+        else
+        {
+            if (!agent.pathPending && agent.remainingDistance < 0.5f)
+            {
+                GotoNextPoint();
+            }
+        }
+    }
+
+    void OnTriggerEnter(Collider colStay)
+    {
+        //プレイヤーに設定しているトリガー範囲に入ったら～
+        if(colStay.gameObject.name == PlayerName)
+        {
+            //追尾開始
+            tracking = true;
+        }
+    }
+    void OnTriggerExit(Collider colExit)
+    {
+        //プレイヤーに設定しているトリガーの範囲から離れたらーEnemyにもTrigger入れないとダメ
+        if (colExit.gameObject.name == PlayerName)
+        {
+            //追尾をやめる
+            tracking = false;
+        }
+    } 
+    
+    void　OnCollisionEnter(Collision collisionEnter)
+    {
+        if(collisionEnter.gameObject.name == "SUV Body")
+        {
+            tracking = false;
+        }
+    }
 }
