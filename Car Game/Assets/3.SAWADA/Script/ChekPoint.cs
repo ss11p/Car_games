@@ -32,7 +32,6 @@ public class ChekPoint : MonoBehaviour
             {
 
                 Nimotu.nimotu += 1;
-                Debug.Log("ChekPoint");
                 scpit.Active();
                 thisChekPoint.SetActive(false);
                 if (scpit.ActiveObj[0].activeSelf == false)
