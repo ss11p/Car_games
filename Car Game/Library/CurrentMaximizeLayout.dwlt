@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 885, y: 474}
   m_MaxSize: {x: 16010, y: 14024}
   vertical: 0
-  controlID: 2080
+  controlID: 2840
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_MinSize: {x: 608, y: 474}
   m_MaxSize: {x: 12008, y: 14024}
   vertical: 1
-  controlID: 2059
+  controlID: 2841
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_MinSize: {x: 608, y: 224}
   m_MaxSize: {x: 12008, y: 4024}
   vertical: 0
-  controlID: 2060
+  controlID: 2842
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -256,8 +256,8 @@ MonoBehaviour:
     y: 0
     width: 385
     height: 224
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
@@ -325,9 +325,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    m_Target: {x: 0, y: -0.7071068, z: 0, w: -0.7071068}
     speed: 2
-    m_Value: {x: 0, y: -0.70710677, z: 0, w: -0.70710677}
+    m_Value: {x: 0, y: -0.7071068, z: 0, w: -0.7071068}
   m_Size:
     m_Target: 497.49585
     speed: 2
@@ -388,8 +388,8 @@ MonoBehaviour:
     y: 0
     width: 411
     height: 224
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -414,8 +414,8 @@ MonoBehaviour:
     y: 224
     width: 1000
     height: 363
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 274}
+  m_MaxSize: {x: 10002, y: 10024}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -460,20 +460,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/0.Master/Scenes
+    - Assets/0.Master/Scenes/Main2
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/0.Master/Scenes
+  - Assets/0.Master/Scenes/Main2
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\user\Desktop\Car_games\Car Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 32}
-    m_SelectedIDs: a8270000
-    m_LastClickedID: 10152
-    m_ExpandedIDs: 00000000b6230000be260000d027000016280000622800007828000098280000d2280000d4280000d6280000022900002c2900002e2900003a2900004229000060290000da290000f0290000162a0000402a0000be2a0000fc2a0000622b0000742b0000c82b0000d22b000000ca9a3b
+    m_SelectedIDs: ac2a0000
+    m_LastClickedID: 10924
+    m_ExpandedIDs: 00000000b6230000be260000a8270000d027000016280000622800007828000098280000d2280000d4280000d6280000022900002c2900002e2900003a2900004229000060290000da290000f0290000162a0000402a0000be2a0000fc2a0000622b0000742b0000c82b0000d22b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -526,8 +526,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 80a00000
-    m_LastClickedInstanceID: 41088
+    m_SelectedInstanceIDs: 8a270000
+    m_LastClickedInstanceID: 10122
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000f20900003a6f0000b82a0000
     m_RenameOverlay:
