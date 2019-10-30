@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Networking.Types;
 public class Car : MonoBehaviour
 {
+    AudioSource audioSource;
     public static Car inatatic;
     public List<AxeleInfo> axleInfos;//個々の車軸の情報
     public float maxMotorTorque;//ホイールに適用可能な最大トルク
@@ -11,6 +12,7 @@ public class Car : MonoBehaviour
     public float maxBreakeTorque;
     public void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         maxMotorTorque = 900;
         transform.Rotate(0, 180, 0);
     }
@@ -54,6 +56,7 @@ public class Car : MonoBehaviour
             {
                 axeleInfo.leftWheel.brakeTorque = maxBreakeTorque;
                 axeleInfo.rightWheel.brakeTorque = maxBreakeTorque;
+           
             }
             else
             {
