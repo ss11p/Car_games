@@ -27,6 +27,9 @@ public class StagSeni : MonoBehaviour
             case 1:
                 SceneManager.LoadScene("Main2");
                 break;
+            case 2:
+                SceneManager.LoadScene("Main3");
+                break;
             default:
                 break;
         }

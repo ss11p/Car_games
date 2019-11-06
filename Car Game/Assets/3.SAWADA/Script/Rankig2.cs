@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Rankig2 : MonoBehaviour
 {
+    public GameObject[] newObject2 = new GameObject[3];
     int point2 = Nimotu2.nimotu2;
     string[] ranking2 = { "ランキング2 １位", "ランキング2 ２位", "ランキング2 3位" };
     int[] rankingValue2 = new int[3];
@@ -16,6 +17,29 @@ public class Rankig2 : MonoBehaviour
 
         GetRanking2();
         SetRanking2(point2);
+        if (rankingValue2[0] == point2)
+        {
+            newObject2[0].SetActive(true);
+            newObject2[1].SetActive(false);
+            newObject2[2].SetActive(false);
+        }else if (rankingValue2[1] == point2)
+        {
+            newObject2[0].SetActive(false);
+            newObject2[1].SetActive(true);
+            newObject2[2].SetActive(false);
+        }else if (rankingValue2[2] == point2)
+        {
+            newObject2[0].SetActive(false);
+            newObject2[1].SetActive(false);
+            newObject2[2].SetActive(true);
+        }
+        else
+        {
+            newObject2[0].SetActive(false);
+            newObject2[1].SetActive(false);
+            newObject2[2].SetActive(false);
+        }
+
         for (int i = 0; i < ranking2.Length; i++)
         {
             rankingText2[i].text = rankingValue2[i].ToString();
