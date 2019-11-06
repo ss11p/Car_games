@@ -34,5 +34,8 @@ public    void Onplay()
     void Update()
     {
         RezarutoText.text = "集めた荷物の数：" + Nimotu.nimotu;
+
+        //ここでランキングのスクリプトに数字を入れる、ランキングの作り方"未定"
+
     }
 }
