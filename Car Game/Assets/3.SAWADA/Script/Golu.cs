@@ -34,7 +34,7 @@ public class Golu : MonoBehaviour
             if (coll.gameObject.tag == "Car")
             {
                 Invoke("GoRzalt", 1.0f);
-                Debug.Log("ゴールしました");
+               
             }
         }
     }

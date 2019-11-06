@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
+
 public class Rezarut : MonoBehaviour
 {
-    public Text RezarutoText;
+   
     public static int Scnenes;
  public   void Ontaitol()
     {
@@ -33,9 +33,7 @@ public    void Onplay()
     // Update is called once per frame
     void Update()
     {
-        RezarutoText.text = "集めた荷物の数：" + Nimotu.nimotu;
-
-        //ここでランキングのスクリプトに数字を入れる、ランキングの作り方"未定"
-
+        
+       
     }
 }

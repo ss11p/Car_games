@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-93.82667541503906,"y":3.17236328125,"z":41.12474822998047},"rotation":{"x":0.09157752245664597,"y":0.863578736782074,"z":-0.16975796222686768,"w":0.46586212515830996},"size":80.93023681640625,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":144.5508575439453,"y":125.19895935058594,"z":236.65887451171876},"rotation":{"x":-0.7071068286895752,"y":0.0,"z":0.0,"w":-0.7071068286895752},"size":147.75608825683595,"orthographic":true}
+>>>>>>> origin/sawada
