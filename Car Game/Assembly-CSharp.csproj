@@ -58,9 +58,11 @@
      <Compile Include="Assets\2.Katou\UnityTile3D\Tile3D\Vector3Ext.cs" />
      <Compile Include="Assets\3.SAWADA\Script\Car.cs" />
      <Compile Include="Assets\3.SAWADA\Script\Carseitei.cs" />
+     <Compile Include="Assets\3.SAWADA\Script\CarSelect2.cs" />
      <Compile Include="Assets\3.SAWADA\Script\ChekPoint.cs" />
      <Compile Include="Assets\3.SAWADA\Script\ChekPoint2.cs" />
      <Compile Include="Assets\3.SAWADA\Script\Chekpoints.cs" />
+     <Compile Include="Assets\3.SAWADA\Script\CounDown3.cs" />
      <Compile Include="Assets\3.SAWADA\Script\CountDown2.cs" />
      <Compile Include="Assets\3.SAWADA\Script\GameOver.cs" />
      <Compile Include="Assets\3.SAWADA\Script\Golu.cs" />
@@ -92,6 +94,11 @@
      <Compile Include="Assets\4.nakashima\Testmove.cs" />
      <Compile Include="Assets\4.nakashima\testRank.cs" />
      <Compile Include="Assets\4.nakashima\Timer.cs" />
+     <Compile Include="Assets\Village\LowPoly\Medieval\Village\Scripts\ContainerOpener.cs" />
+     <Compile Include="Assets\Village\LowPoly\Medieval\Village\Scripts\InfiniteRotator.cs" />
+     <Compile Include="Assets\Village\LowPoly\Medieval\Village\Scripts\ToggleScript.cs" />
+     <None Include="Assets\Village\Materials\Shaders\DiffuseVertexColor.shader" />
+     <None Include="Assets\Village\LowPoly\Medieval\Misc\Shaders\EmissionShader.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/user/Desktop/CarGame/Car Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
