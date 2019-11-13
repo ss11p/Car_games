@@ -21,6 +21,10 @@ public    void Onplay()
         {
             SceneManager.LoadScene("Main2");
         }
+        if (Scnenes == 3)
+        {
+            SceneManager.LoadScene("Main3");
+        }
 
 
     }

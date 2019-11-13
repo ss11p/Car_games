@@ -49,6 +49,10 @@ public class Timer : MonoBehaviour
             {
                 Rezarut.Scnenes = 2;
             }
+            if (SceneManager.GetActiveScene().name == "Main3")
+            {
+                Rezarut.Scnenes = 3;
+            }
         }
     }
 

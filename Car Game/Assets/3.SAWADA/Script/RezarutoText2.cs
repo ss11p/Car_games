@@ -14,6 +14,6 @@ public class RezarutoText2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Rezarutotext2.text = "集めた荷物の数" + Nimotu2.nimotu2;
+        Rezarutotext2.text = "集めた荷物の数:" + Nimotu2.nimotu2;
     }
 }
