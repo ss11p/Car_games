@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/4.nakashima/Scene/Main2 test.unity
-=======
-- path: Assets/0.Master/Scenes/Main.unity
->>>>>>> origin/sawada
+- path: Assets/4.nakashima/Scene/test2.unity
   isLoaded: 1
   isActive: 1
