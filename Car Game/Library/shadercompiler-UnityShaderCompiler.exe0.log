@@ -5,3 +5,8 @@ Cmd: preprocess
 Cmd: preprocess
   insize=539 outsize=1329 ok=1
 Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
