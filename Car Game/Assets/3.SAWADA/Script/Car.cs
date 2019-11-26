@@ -10,6 +10,7 @@ public class Car : MonoBehaviour
     public float maxMotorTorque;//ホイールに適用可能な最大トルク
     public float maxSteeringAngle=30;//適用可能な最大ハンドル角度
     public float maxBreakeTorque;
+    int accelerationCount = 3;//加速可能な回数
     public void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -75,9 +76,19 @@ public class Car : MonoBehaviour
         {
             maxMotorTorque = 900;
         }
-      
+
+        //加速回数に制限がある
+        if (accelerationCount > 0)
+        {
+            Debug.Log("残りの回数" + accelerationCount);
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                accelerationCount -= 1;
+                //Zキーを押したら加速させる
+                maxMotorTorque += 800;
+            }
+        }    
     }
- 
 }
 [System.Serializable]
 public class AxeleInfo
