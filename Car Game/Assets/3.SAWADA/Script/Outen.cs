@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Outen : MonoBehaviour
 {
+    
     public AudioClip sound1;
     public GameObject GameoverCanvas;
     AudioSource audioSource;

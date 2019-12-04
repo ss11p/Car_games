@@ -19,12 +19,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1536
     height: 731
   m_MinSize: {x: 881, y: 474}
   m_MaxSize: {x: 16006, y: 14024}
   vertical: 0
   controlID: 709
+=======
+    width: 1280
+    height: 587
+  m_MinSize: {x: 883, y: 474}
+  m_MaxSize: {x: 16008, y: 14024}
+  vertical: 0
+  controlID: 8175
+>>>>>>> origin/sawada
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,10 +55,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 820.8
     y: 73.6
     width: 241
     height: 361
+=======
+    x: 579.3334
+    y: 72.66667
+    width: 305
+    height: 290
+>>>>>>> origin/sawada
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
@@ -61,10 +77,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -120.5
     m_HBaseRangeMax: 120.5
     m_VBaseRangeMin: -172
     m_VBaseRangeMax: 172
+=======
+    m_HBaseRangeMin: -152.5
+    m_HBaseRangeMax: 152.5
+    m_VBaseRangeMin: -136.5
+    m_VBaseRangeMax: 136.5
+>>>>>>> origin/sawada
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -82,25 +105,43 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 241
       height: 344
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 120.5, y: 172}
+=======
+      width: 305
+      height: 273
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 152.5, y: 136.5}
+>>>>>>> origin/sawada
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -120.5
       y: -172
       width: 241
       height: 344
+=======
+      x: -152.5
+      y: -136.5
+      width: 305
+      height: 273
+>>>>>>> origin/sawada
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 301.25, y: 451.25}
+=======
+  m_LastWindowPixelSize: {x: 457.5, y: 435}
+>>>>>>> origin/sawada
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000100000100
@@ -124,12 +165,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1066
     height: 731
   m_MinSize: {x: 604, y: 474}
   m_MaxSize: {x: 12004, y: 14024}
   vertical: 1
   controlID: 672
+=======
+    width: 888
+    height: 587
+  m_MinSize: {x: 608, y: 474}
+  m_MaxSize: {x: 12008, y: 14024}
+  vertical: 1
+  controlID: 8127
+>>>>>>> origin/sawada
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,12 +200,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1066
     height: 381
   m_MinSize: {x: 604, y: 224}
   m_MaxSize: {x: 12004, y: 4024}
   vertical: 0
   controlID: 673
+=======
+    width: 888
+    height: 310
+  m_MinSize: {x: 608, y: 224}
+  m_MaxSize: {x: 12008, y: 4024}
+  vertical: 0
+  controlID: 8106
+>>>>>>> origin/sawada
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,8 +232,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 242
     height: 381
+=======
+    width: 217
+    height: 310
+>>>>>>> origin/sawada
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
@@ -204,6 +268,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 73.6
     width: 240
     height: 361
@@ -214,6 +279,18 @@ MonoBehaviour:
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: fcbaffffd4ccffff8c460000
+=======
+    y: 72.66667
+    width: 215
+    height: 290
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 911}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 98a3ffffcab2fffffcb7ffff4ed3ffff38f1fffffef6ffffd4fbfffffe9200007a930000f69400004495000078960000
+>>>>>>> origin/sawada
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Car (POL) (1)
@@ -224,7 +301,11 @@ MonoBehaviour:
           y: 0
           width: 0
           height: 0
+<<<<<<< HEAD
         m_UserData: 18060
+=======
+        m_UserData: -23656
+>>>>>>> origin/sawada
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -252,10 +333,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 242
     y: 0
     width: 579
     height: 381
+=======
+    x: 217
+    y: 0
+    width: 362
+    height: 310
+>>>>>>> origin/sawada
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 8}
@@ -284,10 +372,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 242.40001
     y: 73.6
     width: 575
     height: 361
+=======
+    x: 217.33334
+    y: 72.66667
+    width: 358
+    height: 290
+>>>>>>> origin/sawada
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: 5e11afb2891a2cb46a5aa2829176dd73
   m_SceneLighting: 0
@@ -295,9 +390,15 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -184.1, y: 205.54376, z: 100.378525}
     speed: 2
     m_Value: {x: -184.1, y: 205.54376, z: 100.378525}
+=======
+    m_Target: {x: -247.50247, y: 4.316101, z: 94.55319}
+    speed: 2
+    m_Value: {x: -247.50247, y: 4.316101, z: 94.55319}
+>>>>>>> origin/sawada
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -325,6 +426,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.044932947, y: 0.8065445, z: -0.5862126, w: -0.061821308}
     speed: 2
     m_Value: {x: -0.044932947, y: 0.8065445, z: -0.5862126, w: -0.061821308}
@@ -332,6 +434,15 @@ MonoBehaviour:
     m_Target: 718.2418
     speed: 2
     m_Value: 718.2418
+=======
+    m_Target: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
+    speed: 2
+    m_Value: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
+  m_Size:
+    m_Target: 88.16994
+    speed: 2
+    m_Value: 88.16994
+>>>>>>> origin/sawada
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -384,12 +495,21 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 821
     y: 0
     width: 245
     height: 381
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    x: 579
+    y: 0
+    width: 309
+    height: 310
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
+>>>>>>> origin/sawada
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -411,9 +531,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 381
     width: 1066
     height: 350
+=======
+    y: 310
+    width: 888
+    height: 277
+>>>>>>> origin/sawada
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 12}
@@ -444,9 +570,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 454.4
     width: 1064
     height: 330
+=======
+    y: 382.6667
+    width: 886
+    height: 257
+>>>>>>> origin/sawada
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -460,20 +592,35 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
   - Assets
+=======
+    - Assets/2.Katou/Pre
+  m_ViewMode: 1
+  m_StartGridSize: 96
+  m_LastFolders:
+  - Assets/2.Katou/Pre
+>>>>>>> origin/sawada
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: C:\Users\user\Desktop\CarGame\Car Game
+  m_LastProjectPath: C:\Users\user\Desktop\Car_games\Car Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 823d0000
     m_LastClickedID: 15746
     m_ExpandedIDs: 00000000c0230000823d0000403e0000603e0000da3e0000de3e0000ea3e0000fe3e0000023f0000303f0000323f0000343f00005e3f0000703f0000823f0000863f00008e3f0000983f0000b23f00000a400000184000003c4000005e400000c8400000fc400000fe400000004100005a4100006a41000070410000b2410000bc41000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 180}
+    m_SelectedIDs: fe2c0000
+    m_LastClickedID: 11518
+    m_ExpandedIDs: 00000000c4230000102700002e2800005a280000fc2800000429000018290000402900007e2900008029000082290000b0290000ca290000e4290000e8290000f4290000fe290000202a0000be2a0000d42a0000042b00003a2b0000cc2b0000102c0000122c00008c2c00009e2c0000a42c0000002d00000c2d000000ca9a3b
+>>>>>>> origin/sawada
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -501,7 +648,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000c0230000823d0000403e0000603e0000da3e0000de3e0000ea3e0000fe3e0000023f0000303f0000323f0000343f00005e3f0000703f0000823f0000863f00008e3f0000983f0000b23f00000a400000184000003c4000005e400000c8400000fc400000fe400000004100005a4100006a41000070410000b2410000bc41000000ca9a3b
+=======
+    m_ExpandedIDs: 00000000c4230000102700002e2800005a280000fc2800000429000018290000402900007e2900008029000082290000b0290000ca290000e4290000e8290000f4290000fe290000202a0000be2a0000d42a0000042b00003a2b0000cc2b0000102c0000122c00008c2c00009e2c0000a42c0000002d00000c2d000000ca9a3b
+>>>>>>> origin/sawada
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -526,8 +677,13 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 8c460000
     m_LastClickedInstanceID: 18060
+=======
+    m_SelectedInstanceIDs: a08fffff
+    m_LastClickedInstanceID: -28768
+>>>>>>> origin/sawada
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000f20900003a6f0000b82a00007c2b0000bc400000
     m_RenameOverlay:
@@ -578,9 +734,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 378.6667
     width: 998
     height: 261
+=======
+    y: 386
+    width: 886
+    height: 254
+>>>>>>> origin/sawada
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &14
 MonoBehaviour:
@@ -597,12 +759,21 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1066
     y: 0
     width: 470
     height: 731
   m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
+=======
+    x: 888
+    y: 0
+    width: 392
+    height: 587
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> origin/sawada
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 15}
@@ -657,10 +828,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1066.4
     y: 73.6
     width: 468
     height: 711
+=======
+    x: 888
+    y: 72.66667
+    width: 390
+    height: 567
+>>>>>>> origin/sawada
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 

@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Pozu : MonoBehaviour
 {
+    public GameObject GameoverCanvas;
     public AudioClip sound1;
     public AudioClip sound2;
     AudioSource audioSource;
-
+     
     [SerializeField]
     public GameObject pozuCanvas;
     // Start is called before the first frame update
@@ -19,19 +20,24 @@ public class Pozu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (Input.GetKeyDown("q"))
         {
-            
-            pozuCanvas.SetActive(!pozuCanvas.activeSelf);
-            if (pozuCanvas.activeSelf)
+            if (GameoverCanvas.activeSelf == false)
             {
-                audioSource.PlayOneShot(sound1);
-                Time.timeScale = 0f;
-            }
-            else
-            {
-                audioSource.PlayOneShot(sound2);
-                Time.timeScale = 1f;
+
+                pozuCanvas.SetActive(!pozuCanvas.activeSelf);
+                if (pozuCanvas.activeSelf)
+                {
+                    audioSource.PlayOneShot(sound1);
+                    Time.timeScale = 0f;
+                }
+                else
+                {
+                    audioSource.PlayOneShot(sound2);
+                    Time.timeScale = 1f;
+                }
+
             }
         }
     }
