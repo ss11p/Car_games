@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/0.Master/Scenes/Main3.unity
     guid: 6d71b663effa2c54da951318f7f7fbb9
   - enabled: 1
+    path: Assets/0.Master/Scenes/Main4.unity
+    guid: 44873f90bc801474e99165125a1a89a9
+  - enabled: 1
     path: Assets/0.Master/Scenes/Rezaruto.unity
     guid: da1a165959bd8d342a650efdb9a8f242
   - enabled: 1
@@ -32,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/0.Master/Scenes/Rezaruto3.unity
     guid: c4ddb5f12e9770743a4abc94f8b5dbdf
+  - enabled: 1
+    path: Assets/0.Master/Scenes/Rezaruto4.unity
+    guid: 63c780f25390b44428015573c0fcda8b
   m_configObjects: {}
