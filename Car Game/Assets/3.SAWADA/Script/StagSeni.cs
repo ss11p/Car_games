@@ -9,7 +9,7 @@ public class StagSeni : MonoBehaviour
     void Start()
     {
         PlayerPrefs.DeleteKey("Stag_selt");
-       
+
     }
 
     // Update is called once per frame
