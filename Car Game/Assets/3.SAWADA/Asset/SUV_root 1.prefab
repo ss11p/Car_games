@@ -67,6 +67,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3571665702738690705, guid: ce339c55f024ce5419cad497d1bef859,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3571665702738690705, guid: ce339c55f024ce5419cad497d1bef859,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7711729666411453592, guid: ce339c55f024ce5419cad497d1bef859,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257745504382385683, guid: ce339c55f024ce5419cad497d1bef859,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.7919075
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257745504382385683, guid: ce339c55f024ce5419cad497d1bef859,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.780946
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257745504382385683, guid: ce339c55f024ce5419cad497d1bef859,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 151
+      objectReference: {fileID: 0}
     - target: {fileID: 7960993234228068418, guid: ce339c55f024ce5419cad497d1bef859,
         type: 3}
       propertyPath: axleInfos.Array.data[0].leftWheel

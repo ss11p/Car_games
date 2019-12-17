@@ -34,6 +34,7 @@ public    void Onplay()
     void Start()
     {
         Debug.Log(Scnenes);
+
     }
 
     // Update is called once per frame
