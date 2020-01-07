@@ -9,6 +9,7 @@ public class Sound : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        titleBGM.Play();
         DontDestroyOnLoad(gameObject);
         DontDestroyOnLoad(titleBGM.gameObject);
         SceneManager.activeSceneChanged += OnActiveSceneChanged;
@@ -23,27 +24,28 @@ public class Sound : MonoBehaviour
         {
             titleBGM.Stop();
         }
-        if (beforeScene == "Rezaruto" && nextScene.name == "Taitol")
+        if (beforeScene == "Select" && nextScene.name == "Main3")
         {
-            titleBGM.Play();
+            titleBGM.Stop();
         }
-        if (beforeScene == "Rezaruto2" && nextScene.name == "Taitol")
+        if (beforeScene == "Select" && nextScene.name == "Main4")
         {
-            titleBGM.Play();
+            titleBGM.Stop();
         }
-        if (beforeScene == "Main" && nextScene.name == "Taitol")
-        {
-            titleBGM.Play();
-        }
-        if (beforeScene == "Main2" && nextScene.name == "Taitol")
-        {
-            titleBGM.Play();
-        }
+     
         if (beforeScene == "Main" && nextScene.name == "Select")
         {
             titleBGM.Play();
         }
         if (beforeScene == "Main2" && nextScene.name == "Select")
+        {
+            titleBGM.Play();
+        }
+        if (beforeScene == "Main3" && nextScene.name == "Select")
+        {
+            titleBGM.Play();
+        }
+        if (beforeScene == "Main4" && nextScene.name == "Select")
         {
             titleBGM.Play();
         }

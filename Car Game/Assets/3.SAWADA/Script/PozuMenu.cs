@@ -8,8 +8,7 @@ public class PozuMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Selectable sel = GetComponent<Selectable>();
-        sel.Select();
+        
     }
 
     // Update is called once per frame

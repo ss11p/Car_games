@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Seni : MonoBehaviour
 {
-    public string LoadName;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +17,7 @@ public class Seni : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Return))
         {
-            SceneManager.LoadScene(LoadName);
+            SceneManager.LoadScene("Select");
         }
     }
 }
