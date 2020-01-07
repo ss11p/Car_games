@@ -8,7 +8,7 @@ public class CarSelect3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate(Car, new Vector3(-4, 2, 267), Quaternion.identity);
+        Instantiate(Car, new Vector3(-4, 3, 267), Quaternion.identity);
     }
 
     // Update is called once per frame
