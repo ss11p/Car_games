@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/0.MASTER/Scenes/Taitol.unity
+- path: Assets/0.MASTER/Scenes/Rezaruto3.unity
   isLoaded: 1
   isActive: 1
