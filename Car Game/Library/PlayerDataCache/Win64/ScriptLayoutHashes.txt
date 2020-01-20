@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/user/Desktop/cargame/Car Game.exe
+C:/Users/user/Desktop/新しいフォルダー/Car Game.exe
 SceneListBegin?
 Assets/0.MASTER/Scenes/Taitol.unity
 Assets/0.MASTER/Scenes/Select.unity
