@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/0.MASTER/Scenes/Main4.unity
-=======
-- path: Assets/0.MASTER/Scenes/Taitol.unity
->>>>>>> 7d9f8483e973b25f65330a53fc970573e84e994b
   isLoaded: 1
   isActive: 1
