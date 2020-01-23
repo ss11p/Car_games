@@ -20,6 +20,7 @@ public class PozuMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Select");
         Time.timeScale = 1;
+       
     }
  public   void Retaitol()
     {

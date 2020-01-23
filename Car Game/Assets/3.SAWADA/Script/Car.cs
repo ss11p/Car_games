@@ -80,7 +80,6 @@ public class Car : MonoBehaviour
         //加速回数に制限がある
         if (accelerationCount > 0)
         {
-            Debug.Log("残りの回数" + accelerationCount);
             if (Input.GetKeyDown(KeyCode.Z))
             {
                 accelerationCount -= 1;

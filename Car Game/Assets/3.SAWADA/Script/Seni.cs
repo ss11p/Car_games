@@ -17,6 +17,7 @@ public class Seni : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Return))
         {
+        
             SceneManager.LoadScene("Select");
         }
     }

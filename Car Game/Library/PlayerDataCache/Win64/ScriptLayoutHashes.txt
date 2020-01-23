@@ -1,7 +1,8 @@
 Win64
 PlayerPath?
-C:/Users/user/Desktop/新しいフォルダー/Car Game.exe
+C:/Users/user/Desktop/cargame/Car Game.exe
 SceneListBegin?
+Assets/0.MASTER/Scenes/playroad.unity
 Assets/0.MASTER/Scenes/Taitol.unity
 Assets/0.MASTER/Scenes/Select.unity
 Assets/0.MASTER/Scenes/Main.unity
@@ -216,3 +217,4 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 167440c1a58b41d86f11b6c4c3ec1690 Assembly-CSharp.dll:.CarAction
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 28bcd86542f2ab8b505a2799a0379fd8 Assembly-CSharp.dll:.CarSelect2
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.PlaySeni

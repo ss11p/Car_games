@@ -30,7 +30,7 @@ public class Chekpoints : MonoBehaviour
             var ObjNumber = Random.Range(0, ActiveObj.Length);
 
             ActiveObj[ObjNumber].SetActive(true);
-        Debug.Log(ObjNumber);
+     
 
         }
       
